@@ -16,10 +16,10 @@ appearance:
 marketing:
   seo:
     site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    local_business_type: 'ResearchGroup'
+    org_name: 'ERTIS Research Group'
+    description: 'ERTIS Research Group official website. ERTIS is part of ITIS Software Institute at University of Málaga. Universidad de Málaga'
+    twitter: 'itis_uma'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -72,7 +72,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/ertis-research/ertis-research.github.io'
     content_dir: content
     branch: main
   avatar:
@@ -115,7 +115,7 @@ extensions:
 
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: ieee
 
 i_am_a_sponsor: true
 powerUps:
