@@ -21,7 +21,9 @@
             <div class="news-card bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-orange-500">
                 <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white"><a href="{{ $page.RelPermalink }}" class="card-title">{{ $page.Title }}</a></h3>
                 <p class="text-gray-700 dark:text-gray-300 mb-4">{{ $page.Summary | truncate 100 }}</p>
+                {{ if $page.Date }}
                 <small class="text-gray-500 dark:text-gray-400">{{ $page.Date.Format "January 2, 2006" }}</small>
+                {{ end }}
             </div>
             {{ end }}
         </div>

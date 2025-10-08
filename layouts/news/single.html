@@ -12,7 +12,9 @@
 
   <div class="prose lg:prose-xl dark:prose-invert">
     <h1 class="text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">{{ .Title }}</h1>
+    {{ if .Date }}
     <p class="text-gray-700 dark:text-gray-300 mb-8">{{ .Date.Format "January 2, 2006" }}</p>
+    {{ end }}
     {{ .Content }}
   </div>
 

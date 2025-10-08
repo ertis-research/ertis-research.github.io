@@ -1,6 +1,6 @@
 ---
 title: "ERTIS visited the Emasagra biofactory in Granada"
-date: "2023-04-14"
+date: 2023-04-14
 image: "/media/news/ertis_emasagra.jpeg"
 links:
 ---

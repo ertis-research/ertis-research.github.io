@@ -1,6 +1,6 @@
 ---
 title: "Colaboracion ITIS UMA y Cepsa en el impulso de optimización de procesos industriales"
-date: "2023-05-09"
+date: 2023-05-09
 image:
 links:
   - text: "Noticia externa en El Estrecho Digital"

@@ -1,6 +1,6 @@
 ---
 title: "K-Project Assembly"
-date: "2022-06-23"
+date: 2022-06-23
 image: "/media/news/k_project.jpg"
 links:
   - text: "K-Project page"

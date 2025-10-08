@@ -1,6 +1,6 @@
 ---
 title: "Alejandro Carnero is visiting Thompson Rivers University"
-date: "2023-09-05"
+date: 2023-09-05
 image: "/media/news/alejandro_carnero_canada.jpg"
 links:
 ---
