@@ -20,10 +20,11 @@
         <h3 class="text-xl font-semibold mb-4">Projects</h3>
         <div class="scroll-container">
             {{ $projects := site.Data.projects }}
-            {{ range $category, $projectList := $projects }}
+            {{ $categories := slice "European Projects" "National Projects" "Contracts with Companies" }}
+            {{ range $category := $categories }}
                 <h4 class="text-lg font-medium mb-2">{{ $category }}</h4>
                 <ul class="list-disc list-inside mb-4">
-                {{ range $project := $projectList }}
+                {{ range $project := index $projects $category }}
                     {{ if $project.active }}
                     <li class="mb-1">
                     <strong>{{ $project.name }}</strong>
@@ -47,10 +48,14 @@
     <h3 class="text-xl font-semibold mb-4">Publications</h3>
     <div class="scroll-container">
         {{ $publications := site.Data.publications }}
-        {{ range $year, $pubList := $publications }}
-        <h4 class="text-lg font-medium mb-2">{{ $year }}</h4>
+        {{ $years := slice }}
+            {{ range $year, $_ := $publications }}
+                {{ $years = $years | append $year }}
+            {{ end }}
+            {{ range sort $years "value" "desc" }}
+        <h4 class="text-lg font-medium mb-2">{{ . }}</h4>
         <ul class="list-disc list-inside mb-4">
-            {{ range $pub := $pubList }}
+            {{ range $pub := index $publications . }}
             <li class="mb-2">
                 <strong>{{ $pub.title }}</strong><br>
                 <small>{{ $pub.authors }} - {{ $pub.year }}</small>

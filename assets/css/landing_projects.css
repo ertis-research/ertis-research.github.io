@@ -26,16 +26,13 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(249, 115, 22, 0.1) 0%, rgba(234, 88, 12, 0.05) 100%);
   opacity: 0;
   transition: opacity 0.4s ease;
   pointer-events: none;
 }
 
 .container-projects li:hover {
-  background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%); /* Gradiente hover */
   transform: translateX(8px) scale(1.02); /* Movimiento y escala */
-  box-shadow: 0 8px 16px rgba(249, 115, 22, 0.3), 0 0 20px rgba(249, 115, 22, 0.2); /* Sombra y glow */
 }
 
 .container-projects li:hover::before {
@@ -105,7 +102,6 @@
 
 .dark .container-projects li:hover {
   background: linear-gradient(135deg, #4b5563 0%, #6b7280 100%);
-  box-shadow: 0 8px 16px rgba(251, 146, 60, 0.3), 0 0 20px rgba(251, 146, 60, 0.2);
 }
 
 .dark .container-projects li strong {
