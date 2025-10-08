@@ -2,7 +2,6 @@
 title: "K-Project Assembly"
 date: "2022-06-23"
 image: "/media/news/k_project.jpg"
-tags: ["K-Project","education","IoT","students"]
 links:
   - text: "K-Project page"
     href: "https://ertis.uma.es/k-project/"
