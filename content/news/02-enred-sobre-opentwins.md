@@ -1,6 +1,5 @@
 ---
 title: "EnRed sobre OpenTwins"
-date:
 image: "/media/news/EnRed.png"
 links:
   - text: "EnRed (video / cobertura)"

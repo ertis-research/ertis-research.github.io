@@ -1,6 +1,5 @@
 ---
 title: "OpenTwins’ high impact on the media"
-date:
 image:
 links:
   - text: "Página fuente (ERTIS News)"

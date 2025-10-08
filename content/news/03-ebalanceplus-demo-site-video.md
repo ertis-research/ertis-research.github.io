@@ -1,6 +1,5 @@
 ---
 title: "EbalancePlus Demo site video"
-date:
 image:
 links:
   - text: "Video en YouTube (enlace en la noticia)"

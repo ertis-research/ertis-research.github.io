@@ -1,6 +1,5 @@
 ---
 title: "Retos de Colaboración: ZeroVision"
-date: 
 image: 
 links:
 ---
