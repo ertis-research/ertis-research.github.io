@@ -1,0 +1,107 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* --- INICIO: Animación personalizada --- */}}
+{{/* Mantenemos la animación de flotación para la imagen */}}
+{{ $css := resources.Get "css/landing_projects.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl">
+    <h2 class="text-4xl tracking-tight font-extrabold text-center mb-8">Projects</h2>
+    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mr-6">
+        <div class="container-projects">
+            {{ $projects := site.Data.projects }}
+            {{ $categories := slice "European Projects" "National Projects" "Contracts with Companies" }}
+            {{ range $category := $categories }}
+                <h4 class="text-lg font-medium mb-2">{{ $category }}</h4>
+                <ul class="list-disc list-inside mb-4">
+                {{ range $project := index $projects $category }}
+                    {{ if $project.active }}
+                    <li class="mb-1">
+                    <strong>{{ $project.name }}</strong>
+                    <br>{{with $project.coordinator}} ({{ . }}) - {{end}} {{ $project.date }}
+                    {{ if $project.website }}
+                        <br><a href="{{ $project.website }}" target="_blank" rel="noopener noreferrer">website</a>
+                    {{ end }}
+                    {{ with $project.text }}
+                        <br><small>{{ . }}</small>
+                    {{ end }}
+                    {{ with $project.images }}
+                    <div class="flex gap-2 mt-2">
+                        {{ range $image := . }}
+                        {{ $img := resources.Get (printf "media/projects/%s" $image.src) }}
+                        {{ if $img }}
+                            <img src="{{ $img.RelPermalink }}" alt="{{ $image.alt }}" class="project-image object-cover rounded">
+                        {{ else }}
+                            <img src="/images/placeholder.png" alt="Image not found" class="project-image object-cover rounded">
+                        {{ end }}
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    </li>
+                {{ end }}
+                </ul>
+            {{ end }}
+            {{ end }}
+            <!-- Dropdown para Finished Projects -->
+            <div class="finished-projects-dropdown">
+                <button id="toggle-finished-projects" class="flex items-center gap-2 text-lg font-medium mb-2 text-gray-900 dark:text-white hover:text-orange-600 dark:hover:text-orange-400 transition cursor-pointer">
+                    <svg id="dropdown-icon" class="w-5 h-5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                    <span class="drop-title text-lg font-medium mb-2">Finished Projects</span>
+                </button>
+                <ul id="finished-projects-list" class="list-disc list-inside mb-4 overflow-hidden transition-all duration-500" style="max-height: 0; opacity: 0;">
+                {{ range $category, $projectList := $projects }}
+                    {{ range $project := $projectList }}
+                    {{ if not $project.active }}
+                        <li class="mb-1">
+                        <strong>{{ $project.name }}</strong>
+                        <br>{{ with $project.coordinator }} ({{ . }}) - {{ end }} {{ $project.date }}
+                        {{ with $project.website }}
+                            <br><a href="{{ . }}" target="_blank" rel="noopener noreferrer">website</a>
+                        {{ end }}
+                        {{ with $project.text }}
+                            <br><small>{{ . }}</small>
+                        {{ end }}
+                        {{ with $project.images }}
+                            <div class="image-container flex gap-2 mt-2">
+                            {{ range $image := . }}
+                                {{ $img := resources.Get (printf "media/projects/%s" $image.src) }}
+                                {{ if $img }}
+                                <img src="{{ $img.RelPermalink }}" alt="{{ $image.alt }}" class="project-image object-cover rounded">
+                                {{ else }}
+                                <img src="/images/placeholder.png" alt="Image not found" class="project-image object-cover rounded">
+                                {{ end }}
+                            {{ end }}
+                            </div>
+                        {{ end }}
+                        </li>
+                    {{ end }}
+                    {{ end }}
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleBtn = document.getElementById('toggle-finished-projects');
+    const projectsList = document.getElementById('finished-projects-list');
+    const dropdownIcon = document.getElementById('dropdown-icon');
+    
+    toggleBtn.addEventListener('click', function() {
+        if (projectsList.style.maxHeight === '0px' || projectsList.style.maxHeight === '') {
+            // Abrir dropdown
+            projectsList.style.maxHeight = projectsList.scrollHeight + 'px';
+            projectsList.style.opacity = '1';
+            dropdownIcon.style.transform = 'rotate(180deg)';
+        } else {
+            // Cerrar dropdown
+            projectsList.style.maxHeight = '0';
+            projectsList.style.opacity = '0';
+            dropdownIcon.style.transform = 'rotate(0deg)';
+        }
+    });
+});
+</script>

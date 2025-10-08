@@ -1,80 +1,83 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
+title: 'Home'
+date: 2023-10-24
 type: landing
 
+design:
+  # Default section spacing
+  spacing: "6rem"
+
 sections:
+  # Section 1: Header
   - block: hero
     content:
-      title: |
-        Wowchemy
-        Research Group
-      image:
-        filename: welcome.jpg
-      text: |
-        <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
-  
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
+      title: "ERTIS Research group"
+      text: "ERTIS focuses its research activity on improving the management, accessibility and integration of embedded devices in the context of the Internet of Things. ERTIS is part of the <span style='color: rgb(var(--color-primary-orange));'>ITIS Software institute.</span>"
+      primary_action:
+        id: btn-more-info
+        text: "More Info..."
+        url: "research/"
+      background_image: ../assets/media/fondo_hero.jpg
     design:
-      view: card
-      columns: '1'
-  
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      css_class: "dark"
 
-  - block: collection
+  # Section 2: Areas
+  - block: research
+    id: areas
     content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
+      title: Research Areas
+      text: ERTIS focuses on several research lines that address the challenges of embedded and distributed systems in real-time and critical domains. Our work is organized into the following areas
+      items:
+        - name: Digital Twins and Open Platforms
+          icon: puzzle-piece
+          description: Architectures for modeling, simulation, and monitoring of physical processes, applied to domains such as agriculture, energy, and infrastructures.
+          image_one: 
+            path: ../assets/media/logo_OpenTwins.svg
+            name: Open Twins
+            link: https://ertis-research.github.io/opentwins/
+          image_two: 
+            path: ../assets/media/logo_Kafka.svg
+            name: Kafka-ML
+            link: https://github.com/ertis-research/kafka-ml
+        - name: IoT, Edge, and Fog Computing
+          icon: globe
+          description: Middleware and distributed architectures that enable efficient data processing across heterogeneous devices and networks.
+        - name: Distributed Artificial Intelligence
+          icon: robot
+          description: Deployment of machine learning models and lightweight neural networks in constrained and embedded environments.
+        - name: Real-Time and Critical Systems
+          icon: shield
+          description: Methods and tools to ensure predictability, functional safety, and cybersecurity in systems where failures are not acceptable.
 
-  - block: markdown
+  # Section 3: Publications and Projects
+  - block: publications_projects
+    id: publications_projects
     content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
+      title: "Publications and Projects"
+      text: "Explore our latest research projects and publications in embedded systems and IoT."
+
+  # Section 4: Visits
+  - block: visits
+    id: visits
+    content:
+      title: "Visits"
+      text: "Some of the distinguished researchers and collaborators who have visited us recently. We value these exchanges as opportunities to foster innovation and collaboration in embedded systems and IoT."
+      images:
+        name_1: Eduardo_Canete.jpg
+        name_2: Gwanggil_Jeon.jpeg
+        name_3: Nauman_Aslam.jpeg
+        name_4: Nigel_Shofield.jpg
+        name_5: Qasim_Ahmed.jpg
+        name_6: Roufaida.jpeg
+
+# Nueva estructura de la sección Sobre nosotros (versión landing institucional)
+
+# Projects, Publications & Collaborations → un bloque conjunto que muestre la actividad científica y de transferencia.
+
+# Our Team → destacar investigadores principales + link al listado completo.
+
+# Location → un mapa simple con la ubicación en la UMA + datos de contacto básicos.
 ---

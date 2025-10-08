@@ -1,0 +1,126 @@
+{
+  "2024": [
+    {
+      "name": "Berk Canberk",
+      "university": "Edinburg Napier University",
+      "country": "UK",
+      "date": "October 2024",
+      "text": "",
+      "images": []
+    },
+    {
+      "name": "Yuchao Liu and Lotfi Mhamdi",
+      "university": "Northumbria University",
+      "country": "UK",
+      "date": "June 2024",
+      "text": "",
+      "images": [
+        {"src": "Reunion.jpg", "alt": "Visita Yuchao Liu and Lotfi Mhamdi"}
+      ]
+    },
+    {
+      "name": "Li Zhang",
+      "university": "Leeds University",
+      "country": "UK",
+      "date": "June 2024",
+      "text": "",
+      "images": []
+    },
+    {
+      "name": "Hojjat Navidan",
+      "university": "Ghent University",
+      "country": "Belgium",
+      "date": "April-June 2024",
+      "text": "",
+      "images": []
+    },
+    {
+      "name": "Mostafa Naseri",
+      "university": "Ghent University",
+      "country": "Belgium",
+      "date": "March-May 2024",
+      "text": "",
+      "images": []
+    },
+    {
+      "name": "Eduardo Cañete",
+      "university": "University of Cordoba",
+      "country": "Spain",
+      "date": "March 2024",
+      "text": "",
+      "images": [
+        {"src": "Eduardo_Canete.jpg", "alt": "Visita Eduardo Cañete"}
+      ]
+    },
+    {
+      "name": "Nigel Shofield",
+      "university": "Huddersfield University",
+      "country": "UK",
+      "date": "July 2024",
+      "text": "",
+      "images": [
+        {"src": "Nigel_Shofield.jpg", "alt": "Visita Nigel Shofield"}
+      ]
+    },
+    {
+      "name": "Qasim Ahmed",
+      "university": "Huddersfield University",
+      "country": "UK",
+      "date": "July 2024",
+      "text": "",
+      "images": [
+        {"src": "Qasim_Ahmed.jpg", "alt": "Visita Qasim Ahmed"}
+      ]
+    }
+  ],
+  "2023": [
+    {
+      "name": "Amin Mansour Saatloo",
+      "university": "Northumbria University",
+      "country": "UK",
+      "date": "October 2023",
+      "text": "",
+      "images": []
+    },
+    {
+      "name": "Roufaida Laidi",
+      "university": "Norwegian University of Science and Technology",
+      "country": "Norway",
+      "date": "September 2023",
+      "text": "part of the ERCIM Fellowship program",
+      "images": [
+        {"src": "Roufaida.jpeg", "alt": "Visita Roufaida Laidi"}
+      ]
+    },
+    {
+      "name": "Gwanggil Jeon",
+      "university": "Incheon National University",
+      "country": "South Korea",
+      "date": "September 2023",
+      "text": "",
+      "images": [
+        {"src": "Gwanggil_Jeon.jpeg", "alt": "Visita Gwanggil Jeon"}
+      ]
+    },
+    {
+      "name": "Nauman Aslam",
+      "university": "Northumbria University",
+      "country": "UK",
+      "date": "June 2023",
+      "text": "",
+      "images": [
+        {"src": "Nauman_Aslam.jpeg", "alt": "Visita Nauman Aslam"}
+      ]
+    }
+  ],
+  "2021": [
+    {
+      "name": "Pouya Soltani Zarrin",
+      "university": "IHP",
+      "country": "Germany",
+      "date": " January-April 2021",
+      "text": "",
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+{{ $items := $block.content.items}}
+
+{{/* --- INICIO: Animación personalizada --- */}}
+{{/* Mantenemos la animación de flotación para la imagen */}}
+{{ $css := resources.Get "css/landing_projects.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl">
+    <p class="text-center mb-12">{{ $text | markdownify }}</p>
+    <h2 class="text-4xl tracking-tight font-extrabold text-center mb-8">{{ $title }}</h2>
+    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mr-6">
+        <div class="container-projects">
+            {{ range $items }}
+                <div class="mb-8">
+                    <h3 class="text-2xl font-semibold mb-4">{{ .name }}</h3>
+                    <div class="text-gray-700 dark:text-gray-300">{{ .description | markdownify }}</div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

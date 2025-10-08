@@ -1,0 +1,18 @@
+.card-title:hover {
+    transition: color 0.2s ease;
+    color: rgb(var(--color-primary-500))
+}
+
+.tags-block {
+    background-color: rgba(255, 106, 0, 0.63); /* Naranja claro con 10% opacidad */
+    color: rgb(var(--color-primary-900)); /* Texto en naranja más oscuro */
+    border: 1px solid rgb(218, 96, 9); /* Borde naranja con 30% opacidad */
+}
+
+.news-card {
+    align-content: center;
+}
+
+.section {
+    padding: 2rem 2rem;
+}

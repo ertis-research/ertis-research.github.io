@@ -1,0 +1,393 @@
+{
+  "2025": [
+      {
+        "title": "Distributed digital twins on the open-source OpenTwins framework",
+        "authors": "Sergio Infante; Julia Robles; Cristian Martín; Bartolomé Rubio; Manuel Díaz",
+        "link": "https://www.sciencedirect.com/science/article/pii/S1474034624006219"
+      }
+    ],
+    "2024": [
+      {
+        "title": "Towards flexible data stream collaboration: Federated Learning in Kafka-ML",
+        "authors": "Antonio Jesús Chaves; Cristian Martín; Manuel Díaz",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2542660523003591?via%3Dihub"
+      },
+      {
+        "title": "A Methodology for the Development of Soft Sensors with Kafka-ML",
+        "authors": "Antonio Jesús Chaves; Cristian Martín; Luis Llopis Torres; Enrique Soler; Manuel Díaz; Rohit Sharma; Gwanggil Jeon; Yan Zhang",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-031-33808-3_17"
+      },
+      {
+        "title": "Integrating FMI and ML/AI models on the open-source digital twin framework OpenTwins",
+        "authors": "Sergio Infante; Cristian Martín; Julia Robles; Bartolomé Rubio; Manuel Díaz; Rafael González Perea; Pilar Montesinos; Emilio Camacho Poyato",
+        "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/spe.3322?domain=p2p_domain&token=CU6ZSC5NCFTNU2CTZCV7"
+      }
+    ],
+    "2023": [
+      {
+        "title": "Pollen recognition through an open-source web-based system: automated particle counting for aerobiological analysis",
+        "authors": "Antonio Jesús Chaves; Cristian Martín; Luis Llopis Torres; Manuel Díaz; Rocío Ruiz-Mata; Enrique de Gálvez-Montañez; Marta Recio; M. Mar Trigo; Antonio Picornell",
+        "link": "https://link.springer.com/article/10.1007/s12145-023-01189-z"
+      },
+      {
+        "title": "OpenTwins: An open-source framework for the development of next-gen compositional digital twins",
+        "authors": "Julia Robles; Cristian Martín; Manuel Díaz",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0166361523001574"
+      },
+      {
+        "title": "Maintaining flexibility in smart grid consumption through deep learning and deep reinforcement learning",
+        "authors": "Fernando Gallego; Cristian Martín; Manuel Díaz; Daniel Garrido",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2666546823000137"
+      },
+      {
+        "title": "The orchestration of Machine Learning frameworks with data streams and GPU acceleration in Kafka‐ML: A deep‐learning performance comparative",
+        "authors": "Antonio Jesús Chaves; Cristian Martín; Manuel Díaz",
+        "link": "https://onlinelibrary.wiley.com/doi/full/10.1111/exsy.13287"
+      },
+      {
+        "title": "Portable motorized telescope system for wind turbine blades damage detection",
+        "authors": "Alejandro Carnero; Cristian Martín; Manuel Díaz",
+        "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12618"
+      }
+    ],
+    "2022": [
+      {
+        "title": "Structural health and intelligent monitoring of wind turbine blades with a motorized telescope",
+        "authors": "Alejandro Carnero; Cristian Martín; Manuel Díaz",
+        "link": "https://ieeexplore.ieee.org/abstract/document/10069086/"
+      },
+      {
+        "title": "Kafka-ML: connecting the data stream with ML/AI frameworks",
+        "authors": "Cristian Martín; Peter Langendoerfer; Pouria Soltani; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0167739X21002995?via%3Dihub"
+      },
+      {
+        "title": "Facilitating the Monitoring and Management of Structural Health in Civil Infrastructures with an Edge/Fog/Cloud Architecture",
+        "authors": "Cristian Martín; Daniel Garrido; Luis Llopis; Bartolomé Rubio; Manuel Díaz",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0920548921000957"
+      }
+    ],
+    "2021": [
+      {
+        "title": "Managing and Deploying Distributed and Deep Neural Models Through Kafka-ML in the Cloud-to-Things Continuum",
+        "authors": "Alejandro Carnero; Cristian Martín; Daniel R. Torres; Daniel Garrido; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/9529202"
+      },
+      {
+        "title": "An open source framework based on Kafka-ML for DDNN inference over the Cloud-to-Things continuum",
+        "authors": "Daniel R. Torres; Cristian Martín; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://www.sciencedirect.com/science/article/pii/S138376212100151X?via%3Dihub"
+      }
+    ],
+    "2020": [
+      {
+        "title": "Integrating Blockchain in Safety-Critical Systems: An Application to the Nuclear Industry",
+        "authors": "Manuel Díaz; Enrique Soler; Luis Llopis; Javier Trillo",
+        "link": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9229377&tag=1"
+      },
+      {
+        "title": "FogPi: A Portable Fog Infrastructure through Raspberry Pis",
+        "authors": "Cristian Martín; Daniel Torres; Manuel Díaz; Bartolomé Rubio",
+        "link": "http://www.lcc.uma.es/~cmf/publication/fernandez-2020-fogpi/fernandez-2020-fogpi.pdf"
+      }
+    ],
+    "2019": [
+      {
+        "title": "From the Edge to the Cloud: Enabling Reliable IoT Applications",
+        "authors": "Cristian Martín; Daniel Garrido; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/8778692"
+      },
+      {
+        "title": "Performance analysis of wireless sensor networks and priority queueing systems",
+        "authors": "Esteban Cañete; Jian Chen; Manuel Díaz; Bartolomé Rubio; Juan M. Troya",
+        "link": "https://www.inderscienceonline.com/doi/abs/10.1504/IJSNET.2019.099474"
+      },
+      {
+        "title": "Wireless sensor networks and structural health monitoring: Experiences with slab track infrastructures",
+        "authors": "Esteban Cañete; Jian Chen; Manuel Díaz; Luis Llopis; Bartolomé Rubio",
+        "link": "https://journals.sagepub.com/doi/10.1177/1550147719826002"
+      },
+      {
+        "title": "PICO: A platform independent communications middleware for heterogeneous devices in smart grids",
+        "authors": "Jian Chen; Esteban Cañete; Daniel Garrido; Manuel Díaz; Krzysztof Piotrowski",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0920548918300357?via%3Dihub"
+      }
+    ],
+    "2018": [
+      {
+        "title": "An edge computing architecture in the Internet of Things",
+        "authors": "Cristian Martín; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/8421152"
+      },
+      {
+        "title": "On blockchain and its integration with IoT. Challenges and opportunities",
+        "authors": "Antonio Reyna; Cristian Martín; Jian Chen; Enrique Soler; Manuel Díaz",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0167739X17329205?via%3Dihub"
+      },
+      {
+        "title": "Appdaptivity: An Internet of Things Device-Decoupled System for Portable Applications in Changing Contexts",
+        "authors": "Cristian Martín; Jeroen Hoebeke; Jan Rossey; Manuel Díaz; Bartolomé Rubio; Frederik Van den Abeele",
+        "link": "https://www.mdpi.com/1424-8220/18/5/1345"
+      },
+      {
+        "title": "Smart Winery: A Real-Time Monitoring System for Structural Health and Ullage in Fino Style Wine Casks",
+        "authors": "Esteban Cañete; Jian Chen; Cristian Martín; Bartolomé Rubio",
+        "link": "https://www.mdpi.com/1424-8220/18/3/803"
+      }
+    ],
+    "2017": [
+      {
+        "title": "Middleware and Communication Technologies for Structural Health Monitoring of Critical Infrastructures: A Survey",
+        "authors": "Laura Alonso; José Barbarán; Jian Chen; Manuel Díaz; Luis Llopis; Bartolomé Rubio",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0920548917301113?via%3Dihub"
+      },
+      {
+        "title": "SocICoAP: Social Interaction with Supplementary Sensors and Actuators through CoAP in Smartphones",
+        "authors": "Cristian Martín; Jian Chen; Manuel Díaz; Antonio Reyna; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/8030010"
+      },
+      {
+        "title": "Run-time deployment and management of CoAP resources for the Internet of Things",
+        "authors": "Cristian Martín; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://journals.sagepub.com/doi/10.1177/1550147717698969"
+      }
+    ],
+    "2016": [
+      {
+        "title": "State-of-the-art, challenges, and open issues in the integration of Internet of Things and Cloud Computing",
+        "authors": "Manuel Díaz; Cristian Martín; Bartolomé Rubio",
+        "link": "https://www.sciencedirect.com/science/article/pii/S108480451600028X"
+      },
+      {
+        "title": "Lambda-CoAP: An Internet of Things and Cloud Computing Integration based on the Lambda Architecture and CoAP",
+        "authors": "Manuel Díaz; Cristian Martín; Bartolomé Rubio",
+        "link": "https://link.springer.com/chapter/10.1007/978-3-319-28910-6_18"
+      }
+    ],
+    "2015": [
+      {
+        "title": "Using Wireless Sensor Networks and Trains as Data Mules to Monitor Slab Track Infrastructures",
+        "authors": "Esteban Cañete; Jian Chen; Manuel Díaz; Luis Llopis; Antonio Reyna; Bartolomé Rubio",
+        "link": "https://www.mdpi.com/1424-8220/15/7/15101"
+      },
+      {
+        "title": "Sensor4PRI: A Sensor Platform for the Protection of Railway Infrastructures",
+        "authors": "Esteban Cañete; Jian Chen; Manuel Díaz; Luis Llopis; Bartolomé Rubio",
+        "link": "https://www.mdpi.com/1424-8220/15/3/4996"
+      },
+      {
+        "title": "Measuring and modeling the energy cost of reconfiguration in sensor networks",
+        "authors": "Gokulnath Ramachandran; Esteban Cañete; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/7001631"
+      }
+    ],
+     "2014": [
+      {
+        "title": "A Virtual Channel-based Framework for the Integration of Wireless Sensor Networks in the Cloud",
+        "authors": "José Barbarán; Manuel Díaz; Bartolomé Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ICI14.pdf"
+      },
+      {
+        "title": "An Integrated WSAN and SCADA System for Monitoring a Critical Infrastructure",
+        "authors": "Ana M. Grilo; Jian Chen; Manuel Díaz; Daniel Garrido; António Casaca",
+        "link": "https://ieeexplore.ieee.org/document/6813670"
+      }
+    ],
+    "2013": [
+      {
+        "title": "RAISE: Railway infrastructure health monitoring using wireless sensor networks",
+        "authors": "Jian Chen; Manuel Díaz; Bartolomé Rubio; Juan M. Troya",
+        "link": "http://www.lcc.uma.es/~tolo/publications/RAISE.pdf"
+      },
+      {
+        "title": "PS-QUASAR: A publish/subscribe QoS Aware Middleware for Wireless Sensor and Actor Networks",
+        "authors": "Jian Chen; Manuel Díaz; Bartolomé Rubio; Juan M. Troya",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0164121213000502?via%3Dihub"
+      }
+    ],
+    "2012": [
+      {
+        "title": "HERO: a Hierarchical, Efficient and Reliable Routing Protocol for Wireless Sensor and Actor Networks",
+        "authors": "Esteban Cañete; Manuel Díaz; Luis Llopis; Bartolomé Rubio",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0140366412001168?via%3Dihub"
+      },
+      {
+        "title": "Distributed Shared Memory as an Approach for Integrating WSNs and Cloud Computing",
+        "authors": "Peter Langendoerfer; Krzysztof Piotrowski; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/6208723"
+      },
+      {
+        "title": "A Wireless Sensor Networks Framework based on Light Databases",
+        "authors": "Esteban Cañete; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://onlinelibrary.wiley.com/doi/10.1002/spe.2119"
+      },
+      {
+        "title": "A Sensor-Cloud Integration for Industrial Automation",
+        "authors": "Manuel Díaz; Daniel Garrido; Luis Llopis; Bartolomé Rubio",
+        "link": "https://ertis.uma.es/publications/"
+      },
+      {
+        "title": "Using standards to integrate soft real-time components into dynamic distributed architectures",
+        "authors": "José A. Dianes; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0920548911000894?via%3Dihub"
+      },
+      {
+        "title": "NeuralSens: A neural network based framework to allow dynamic adaptation in wireless sensor and actor networks",
+        "authors": "Esteban Cañete; Jian Chen; Rafael M. Luque; Bartolomé Rubio",
+        "link": "https://dl.acm.org/doi/abs/10.1016/j.jnca.2011.08.006"
+      }
+    ],
+    "2011": [
+      {
+        "title": "Habitat: A DDS-based Service Framework for Smart Spaces",
+        "authors": "José A. Dianes; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/5606422"
+      },
+      {
+        "title": "A Survey on Quality of Service Support in Wireless Sensor and Actor Networks: Requirements and Challenges in the Context of Critical Infrastructure Protection",
+        "authors": "Jian Chen; Manuel Díaz; Luis Llopis; Bartolomé Rubio; Juan M. Troya",
+        "link": "https://dl.acm.org/doi/abs/10.1016/j.jnca.2011.01.008"
+      },
+      {
+        "title": "A Cluster-Based Quantitative Reliability Model",
+        "authors": "Esteban Cañete; Manuel Díaz; Luis Llopis; Bartolomé Rubio",
+        "link": "https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.217.7619&rep=rep1&type=pdf"
+      },
+      {
+        "title": "A Service-Oriented Approach to Facilitate WSAN Application Development",
+        "authors": "Esteban Cañete; Jian Chen; Manuel Díaz; Luis Llopis; Bartolomé Rubio",
+        "link": "https://www.sciencedirect.com/science/article/pii/S1570870510001320"
+      }
+    ],
+    "2010": [
+      {
+        "title": "DDS4RIS: A DDS Implementation for Wireless Sensor Networks",
+        "authors": "Eduardo Calderón; Jian Chen; Bartolomé Rubio",
+        "link": "https://www.scopus.com/pages/publications/79953016625"
+      },
+      {
+        "title": "ServiceDDS: A Framework for Real-Time P2P System Integration",
+        "authors": "José A. Dianes; Manuel Díaz; Bartolomé Rubio",
+        "link": "https://ieeexplore.ieee.org/document/5479549"
+      }
+    ],
+    "2009": [
+      {
+        "title": "Case Study: Tractor Safety; Avoiding Overturns and Farmland Monitoring using WSANs and the USEME Framework",
+        "authors": "E. Cañete; J. Chen; L. Llopis; B. Rubio",
+        "link": ""
+      },
+      {
+        "title": "Dynamic Adaptation in Wireless Sensor Netwoks using Neural Networks",
+        "authors": "E. Cañete; J. Chen; L. Llopis; R.M. Luque; B. Rubio",
+        "link": ""
+      },
+      {
+        "title": "Programming Wireless Sensor Networks Applications using SMEPP: a Case Study",
+        "authors": "J. Barbarán; J. A. Dianes; M. Díaz; D. Garrido; L. Llopis; A. Reyna; B. Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/EMobility09.pdf"
+      },
+      {
+        "title": "Managing Multi-concern Application Complexity in AspectSBASCO",
+        "authors": "M. Díaz; S. Romero; B. Rubio; E. Soler; J.M. Troya",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ICCS09.pdf"
+      },
+      {
+        "title": "A Service-Oriented Middleware for Wireless Sensor and Actor Networks",
+        "authors": "E. Cañete; J. Chen; M. Díaz; L. Llopis; B. Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ITNG09.pdf"
+      },
+      {
+        "title": "Adding Aspect-Oriented Concepts to the High-Performance Component Model of SBASCO",
+        "authors": "M. Díaz; S. Romero; B. Rubio; E. Soler; J.M. Troya",
+        "link": "http://www.lcc.uma.es/~tolo/publications/PDP09.pdf"
+      }
+    ],
+    "2008": [
+      {
+        "title": "Designing distributed software with RT-Corba and SDL",
+        "authors": "M. Díaz; D. Garrido; L. Llopis; J.M. Troya",
+        "link": ""
+      },
+      {
+        "title": "USEME: A Service-Oriented Framework for Wireless Sensor and Actor Networks",
+        "authors": "E. Cañete; J. Chen; M. Díaz; L. Llopis; B. Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ASWN08.pdf"
+      },
+      {
+        "title": "A Service-Oriented Programming Model for Real Time WSANs",
+        "authors": "E. Cañete; M. Díaz; L. Llopis; B. Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ECRTS08.pdf"
+      }
+    ],
+    "2007": [
+      {
+        "title": "UM-RTCOM: an analyzable component model for real-time distributed systems",
+        "authors": "M. Díaz; D. Garrido; L. Llopis; F. Rus; J.M. Troya",
+        "link": ""
+      },
+      {
+        "title": "A Survey on Programming Approaches and Challenges for Wireless Sensor Networks",
+        "authors": "M. Díaz; B. Rubio; J.M. Troya",
+        "link": ""
+      },
+      {
+        "title": "A Component-based nuclear power plant simulator Kernel",
+        "authors": "M. Díaz; D. Garrido; S. Romero; J.M. Troya",
+        "link": ""
+      },
+      {
+        "title": "A Tuple channel-based coordination model for parallel and distributed programming",
+        "authors": "M. Díaz; B. Rubio; J.M. Troya",
+        "link": ""
+      },
+      {
+        "title": "Programming Wireless Sensor and Actor Networks with TC-WSANs",
+        "authors": "J. Barbarán; M. Díaz; I. Esteve; D. Garrido; L. Llopis; B. Rubio; J.M. Troya",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ICPS07.pdf"
+      },
+      {
+        "title": "TC-WSANs: A Tuple Channel based Coordination Model for Wireless Sensor and Actor Networks",
+        "authors": "J. Barbarán; M. Díaz; I. Esteve; D. Garrido; L. Llopis; B. Rubio; J.M. Troya",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ISCC07.pdf"
+      },
+      {
+        "title": "Experiences with Aspect-based Parallelization of Scientific Code",
+        "authors": "M. Díaz; S. Romero; B. Rubio; E. Soler; J.M. Troya",
+        "link": "http://www.lcc.uma.es/~tolo/publications/HPCS07.pdf"
+      },
+      {
+        "title": "CoSP2P: A Component-based Service Model for Peer-to-Peer Systems",
+        "authors": "C. Alcaide; M. Díaz; L. Llopis; A. Márquez; B. Rubio; E. Soler",
+        "link": "http://www.lcc.uma.es/~tolo/publications/CESSE107.pdf"
+      },
+      {
+        "title": "RTCOORD: A Methodology to design WSAN Applications",
+        "authors": "J. Barbarán; M. Díaz; I. Esteve; D. Garrido; L. Llopis; B. Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/CESSE207.pdf"
+      },
+      {
+        "title": "RadMote: A Mobile Framework for Radiation Monitoring in Nuclear Power Plants",
+        "authors": "J. Barbarán; M. Díaz; I. Esteve; B. Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/CESSE307.pdf"
+      },
+      {
+        "title": "Efficient parallel LAN/WAN algorithms for optimization",
+        "authors": "E. Alba; M. Díaz; C. Cotta; F. Almeida; M. Blesa; I. Dorta; C. Leon; J. Petit; A. Rojas; F. Xhafa; G.J. Luque; J. Gabarró; C. Rodriguez",
+        "link": ""
+      },
+      {
+        "title": "A Real-Time Component-Oriented Middleware for Wireless Sensor and Actor Networks",
+        "authors": "J. Barbarán; M. Díaz; I. Esteve; D. Garrido; L. Llopis; B. Rubio",
+        "link": "http://www.lcc.uma.es/~tolo/publications/CISIS07.pdf"
+      }
+    ],
+    "2006": [
+      {
+        "title": "A Component Framework for Wireless Sensor and Actor Networks",
+        "authors": "M. Díaz; D. Garrido; L. Llopis; B. Rubio; J.M. Troya",
+        "link": "http://www.lcc.uma.es/~tolo/publications/ETFA06.pdf"
+      }
+    ]
+}
+

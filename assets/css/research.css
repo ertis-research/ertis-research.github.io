@@ -1,0 +1,126 @@
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.block_icon_research {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+  padding: 10%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.block_icon_research:nth-child(1) { animation-delay: 0.5s; }
+.block_icon_research:nth-child(2) { animation-delay: 0.6s; }
+.block_icon_research:nth-child(3) { animation-delay: 0.7s; }
+
+.paragraph p {
+    text-align: center;
+}
+
+/* Custom CSS for Glassmorphism Effect */
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+  text-align: center;
+  align-content: center;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.glass-grid {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem; 
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .glass-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.glass-card h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.glass-card h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.glass-card p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.glass-card-orange {
+  background: rgba(243, 133, 93, 0.15); /* --color-primary-400 */
+  border: 1px solid rgba(243, 133, 93, 0.3);
+}
+
+.glass-card-orange-dark {
+  background: rgba(209, 106, 66, 0.15); /* --color-primary-600 */
+  border: 1px solid rgba(209, 106, 66, 0.3);
+}
+
+.glass-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: rgb(var(--color-primary-700)); /* Usa variable del tema */
+}
+
+.glass-card h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: rgb(var(--color-primary-500)); /* Usa variable del tema */
+}
+
+.glass-card-orange h4 {
+  color: rgb(var(--color-primary-400)); /* Naranja claro */
+}
+
+.glass-card-orange-dark h4 {
+  color: rgb(var(--color-primary-600)); /* Naranja oscuro */
+}
+
+html.dark .glass-card-orange h4 { color: rgb(var(--color-primary-300)); }
+html.dark .glass-card-orange-dark h4 { color: rgb(var(--color-primary-500)); }
+html.dark .glass-card-orange h3 { color: rgb(var(--color-primary-200)); }
+html.dark .glass-card-orange-dark h3 { color: rgb(var(--color-primary-300)); }
+
+.dark svg g {
+  fill: white;
+}
+
+.dark svg text tspan{
+  fill: white !important;
+}
+
+.platform-image:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}

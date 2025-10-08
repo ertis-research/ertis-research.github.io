@@ -1,0 +1,67 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* --- INICIO: Animación personalizada --- */}}
+{{/* Mantenemos la animación de flotación para la imagen */}}
+{{ $css := resources.Get "css/publications_projects.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl">
+  {{ with $block.content.title }}
+    <h2 class="text-4xl tracking-tight font-extrabold text-center mb-8">{{ . }}</h2>
+  {{ end }}
+  {{ with $block.content.text }}
+    <p class="paragraph text-primary-black sm:text-xl dark:text-white text-center mb-12">{{ . | $page.RenderString }}</p>
+  {{ end }}
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Tarjeta de Proyectos -->
+    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg mr-6">
+        <h3 class="text-xl font-semibold mb-4">Projects</h3>
+        <div class="scroll-container">
+            {{ $projects := site.Data.projects }}
+            {{ range $category, $projectList := $projects }}
+                <h4 class="text-lg font-medium mb-2">{{ $category }}</h4>
+                <ul class="list-disc list-inside mb-4">
+                {{ range $project := $projectList }}
+                    {{ if $project.active }}
+                    <li class="mb-1">
+                    <strong>{{ $project.name }}</strong>
+                    <br>{{with $project.coordinator}} ({{ . }}) - {{end}} {{ $project.date }}
+                    {{ with $project.website }}
+                        <br><a href="{{ . }}" target="_blank">website</a>
+                    {{ end }}
+                    {{ with $project.text }}
+                        <br><small>{{ . }}</small>
+                    {{ end }}
+                    </li>
+                {{ end }}
+                </ul>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+
+    <!-- Tarjeta de Publicaciones -->
+    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg ">
+    <h3 class="text-xl font-semibold mb-4">Publications</h3>
+    <div class="scroll-container">
+        {{ $publications := site.Data.publications }}
+        {{ range $year, $pubList := $publications }}
+        <h4 class="text-lg font-medium mb-2">{{ $year }}</h4>
+        <ul class="list-disc list-inside mb-4">
+            {{ range $pub := $pubList }}
+            <li class="mb-2">
+                <strong>{{ $pub.title }}</strong><br>
+                <small>{{ $pub.authors }} - {{ $pub.year }}</small>
+                {{ with $pub.link }}
+                <br><a href="{{ . }}" target="_blank">Ver publicación</a>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+    </div>
+    </div>
+</section>

@@ -1,0 +1,51 @@
+#nav-menu{
+    margin-left: auto;
+}
+
+.nav-toggle-buttons{
+    margin-left: 5%;
+}
+
+.nav-link:hover{
+    color: #DD5313;
+}
+
+.dark .nav-link:hover {
+  color: #eb7640;
+}
+
+.navbar-brand svg{
+    height: 2em;
+}
+
+.dark #path2{
+    fill: white !important;
+}
+
+.dark #path3 {
+    fill: white !important;
+}
+
+.dark #path4 {
+    fill: white !important;
+}
+
+.dark #path5 {
+    fill: white !important;
+}
+
+.dark #path6 {
+    fill: white !important;
+}
+
+.dark #path7 {
+    fill: white !important;
+}
+
+.dark #path8 {
+    fill: white !important;
+}
+
+.dark #rect5 {
+    fill: white !important;
+}

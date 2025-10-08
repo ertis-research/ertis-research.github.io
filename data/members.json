@@ -1,0 +1,126 @@
+{
+  "members": [
+    {
+      "role": "Director",
+      "name": "Dr. Manuel Díaz Rodríguez",
+      "images": { "src": "manolo-1.png", "alt": "Manuel Díaz Rodríguez | Director" },
+      "bio": "Manuel Díaz is a University Full Professor in the Department of Languages and Computer Sciences at the University of Malaga, where he directs the ERTIS research group, integrated within the Software Engineering Group of the University of Malaga and from 2016 he is the CEO of Software for Critical Systems, S. L. of which he was co-founder in 2009. Between 1987 and 1991 he worked in the private sector (Olivetti Spain and R&D department of Fujitsu in Malaga). Since 1991 he belongs to the Dept. of Languages and Computer Sciences. His main lines of research focus on distributed systems, real-time embedded systems, and IoT and, more specifically, on the aspects related to middleware for this type of applications and the development of innovative applications in critical systems through the use of disruptive technologies as deep learning and distributed ledger technologies. He has been a principal researcher in 40 research contracts with private companies (Tecnatom, Abengoa, Indra, Adif, …), 6 National Plan projects and 8 European projects (one of them as coordinator).",
+      "email": "mdr_at_lcc.uma.es",
+      "web": "http://www.lcc.uma.es/~mdr/"
+    },
+    {
+      "role": "Professor",
+      "name": "Dr. Bartolomé Rubio Muñoz",
+      "images": { "src": "tolo-1.png", "alt": "Bartolomé Rubio Muñoz | Professor" },
+      "bio": "Bartolomé Rubio received his MS and PhD degree in Computer Engineering from the University of Málaga in 1990 and 1998, respectively. From 1991 to 2000 he was an Assistant Professor at the Department of Languages and Computer Science of the University of Málaga. Since 2001 he has been an Associate Professor in the same department. He has been working in the areas of distributed and parallel programming and coordination models and languages. Currently, he is specially involved in the research fields of Wireless Sensor and Actor Networks and the Integration of Internet of Things and Cloud Computing. He has been a member of the Software Engineering group of the University of Málaga (GISUM) since its foundation and recently is a member of the ITIS software Institute of the University of Málaga.",
+      "email": "tolo@lcc.uma.es",
+      "web": "http://www.lcc.uma.es/~tolo/"
+    },
+    {
+      "role": "Professor",
+      "name": "Dr. Luis Llopis Torres",
+      "images": { "src": "luis-1.png", "alt": "Luis Llopis Torres | Professor" },
+      "bio": "Luis Llopis received his M.S. and Ph.D. degree in Computer Engineering from the University of Málaga in 1995 and 2002, respectively. From 1996 to 2008 he was an Assistant Professor at the Department Lenguajes y Ciencias de la Computación of the University of Málaga. Since 2009 he has been an Associate Professor in the same department. He is working in the areas of Software Engineering and formal methods related to Real Time Systems. Currently, he is specially involved in the research field of wireless sensor and actor networks. He has been a member of the Software Engineering group of the University of Málaga (GISUM) since its foundation.",
+      "email": "luisll@lcc.uma.es"
+    },
+    {
+      "role": "Professor",
+      "name": "Dr. Enrique Soler Castillo",
+      "images": { "src": "enrique-1.jpg", "alt": "Enrique Soler Castillo | Professor" },
+      "bio": "Enrique Soler received his M.S. and Ph.D. degree in Computer Science from the University of Málaga (UMA) in 1990 and 2001, respectively. From 1995 to 2002, he was Assistant Professor at the Dep. of Languages and Computer Science of the University of Málaga where he is an associate professor since 2002. He has published several papers in the field of high performance computing and simulation of complex systems, such as nuclear power plants. He has also worked in image analysis for the detection of defects in the inspection of industrial components and in the field of quality of food. He is also specialized in the design and Administration of Databases and Data Warehouses.",
+      "email": "esc@lcc.uma.es"
+    },
+    {
+      "role": "Professor",
+      "name": "Dr. Daniel Garrido Márquez",
+      "images": { "src": "dani-1.png", "alt": "Daniel Garrido Márquez | Professor" },
+      "bio": "Daniel Garrido received the M.S. and Ph.D. degrees in computer science from the Universidad de Málaga, Málaga, Spain, in 1999 and 2006, respectively. From 2006, he worked in different public and private projects related to distributed programming, simulation, and real-time systems, especially in the areas of software engineering. From 2007 to 2009, he was an Assistant Professor with the Departamento de Lenguajes y Ciencias de la Computación, Universidad de Málaga, where he has been an Associate Professor since 2009. He was one of the Founders of the spin-off company Softcrits, Software for Critical Systems, Málaga. He has published several papers in international refereed journals and representative congresses in the area.",
+      "email": "dgarrido@lcc.uma.es"
+    },
+    {
+      "role": "Professor",
+      "name": "Dr. Cristian Martín Fernández",
+      "images": { "src": "cristian-1.jpg", "alt": "Cristian Martín Fernández | Professor" },
+      "bio": "Cristian Martín received a M.Sc. in Computer Engineering, a M.Sc. in Software Engineering and Artificial Intelligence and a PhD in Computer Science from the University of Málaga in 2014, 2015 and 2018 respectively. Currently, he is an Assistant Professor at the University of Málaga and at the ITIS Software. Previously, he has been working as a software engineer in various tech companies with the RFID technology and software development. His research interests focus on the adoption of the Internet of Things, cloud, fog and edge computing, deep learning, low-latency applications and structural health monitoring.",
+      "email": "cmf@lcc.uma.es",
+      "web": "http://www.lcc.uma.es/~cmf/"
+    },
+    {
+      "role": "PhD Student",
+      "name": "Alejandro Carnero Hijano",
+      "images": { "src": "acarnero.png", "alt": "Alejandro Carnero Hijano | PhD Student" },
+      "bio": "Alejandro Carnero received his Bachelor’s degree in Software Engineering and his M.Sc. in Software Engineering and Artificial Intelligence from the University of Málaga, Spain, in 2020 and 2021, respectively. Since the end of 2020 he has been a research assistant in the ERTIS research group at the University of Málaga. Currently, he is a PhD student researching structural health monitoring of civil infrastructures. His research interests focus on distributed deep machine learning and computer vision along with the IoT field.",
+      "email": "alexcarnero97@uma.es"
+    },
+    {
+      "role": "PhD Student",
+      "name": "Antonio Jesús Chaves García",
+      "images": { "src": "antonio.png", "alt": "Antonio Jesús Chaves García | PhD Student" },
+      "bio": "Antonio Jesús Chaves received his BSc in Computer Science Engineering and his M.Sc. in Software Engineering and Artificial Intelligence from the University of Málaga, Spain, in 2021 and 2022, respectively. He is currently a PhD student at the ERTIS Research Group, University of Málaga, and a member of the ITIS Software Institute, University of Málaga. His research interests include modern deep-learning techniques, such as object recognition, fault detection, federated learning, and artificial intelligence applied to the IoT field.",
+      "email": "chaves@uma.es"
+    },
+    {
+      "role": "PhD Student",
+      "name": "Sergio Infante Paredes",
+      "images": { "src": "sergio.png", "alt": "Sergio Infante Paredes | PhD Student" },
+      "bio": "Sergio Infante received his Bachelor’s degree in Computer Science Engineering and his M.Sc. in Software Engineering and Artificial Intelligence from the University of Málaga, Spain, in 2021 and 2022, respectively. Since April 2022 he has been a research assistant in the ERTIS research group at the University of Málaga focused on the development of digital twins. Now, he is a PhD student at the ERTIS Research Group, University of Málaga, and a member of the ITIS Software Institute, University of Málaga. His research interests include deep-learning techniques and digital twins.",
+      "email": "sergioip@uma.es"
+    },
+    {
+      "role": "PhD Student",
+      "name": "Julia Robles Medina",
+      "images": { "src": "julia2.png", "alt": "Julia Robles Medina | PhD Student" },
+      "bio": "Julia Robles Medina is a Ph.D. student in computer science at the University of Malaga, Spain, since 2023. She received her B.E. degree in Software Engineering in 2021 and her M.E. degree in Software Engineering and Artificial Intelligence in 2023. Since 2021, she has been working as research assistant in the ERTIS group at the University of Malaga. Her research focuses on digital twins, particularly their composition and scalability. She is also responsible for developing OpenTwins, an open-source platform for creating composite digital twins, which is attracting interest in the field.",
+      "email": "juliarobles@uma.es"
+    },
+    {
+      "role": "PhD Student",
+      "name": "Sergio Martín-Albo Martín",
+      "images": { "src": "sergiom.png", "alt": "Sergio Martín-Albo Martín | PhD Student" },
+      "bio": "Sergio Martín-Albo Martín received his bachelor’s degree in Computer Science Engineering and a master in Software Engineering and Artificial Intelligence from the University of Málaga, Spain, in 2021 and 2022, respectively. He is currently a PhD student at the ERTIS Research Group, University of Málaga, and a member of the ITIS Software Institute, University of Málaga. His research interest include machine learning and deep learning techniques , as well as in the study of causality between variables in the data.",
+      "email": "sergiomalbo@uma.es"
+    }
+  ],
+  "students": [
+    {
+      "name": "Mehmet Batuhan Duman",
+      "email": "batuhanduman@uma.es",
+      "images": { "src": "mehmet.png", "alt": "Mehmet Batuhan Duman | batuhanduman@uma.es" }
+    },
+    {
+      "name": "Miguel Ángel Santiago Fortes",
+      "email": "mafortes.it@uma.es",
+      "images": { "src": "migue.png", "alt": "Miguel Ángel Santiago Fortes | mafortes.it@uma.es" }
+    },
+    {
+      "name": "Pablo Salado Cespedosa",
+      "email": "pablosalado2001@uma.es",
+      "images": { "src": "pablo.png", "alt": "Pablo Salado Cespedosa | pablosalado2001@uma.es" }
+    },
+    {
+      "name": "Javier Serrano Contreras",
+      "email": "javiserranoc@uma.es",
+      "images": { "src": "javi.png", "alt": "Javier Serrano Contreras | javiserranoc@uma.es" }
+    }
+  ],
+  "former_members": [
+    "Alejandro Megías Mata",
+    "Altair Bueno Calvente",
+    "Pilar Rodríguez Pinos",
+    "Fernando Gallego Donoso",
+    "Daniel R. Torres Ruiz",
+    "Joaquín Trillo Escribano",
+    "Iván José Alba García",
+    "Luis Alonso Muñoz",
+    "Dr. Jaime Hing Fong Chen Gallardo",
+    "Jesus García Heras",
+    "José Carlos Baena González",
+    "Rafael Rodríguez Hernández",
+    "Dr. Ana Reyna Fortes",
+    "Javier Marín Fernández",
+    "Dr. Eduardo Cañete Carmona",
+    "Óscar Carmona",
+    "Placido Ezequiel Gaona Alarcón",
+    "Javier Luengo Romero"
+  ]
+}

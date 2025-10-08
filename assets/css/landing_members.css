@@ -1,0 +1,28 @@
+.section {
+    padding: 2rem 2rem;
+}
+
+.members-link {
+  color: #ea580c;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.members-link:hover {
+  color: #dc2626;
+  text-decoration: underline;
+}
+
+.member-image {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  object-fit: cover;
+  display: block;
+}
+
+.div-card {
+  text-align: center;
+}

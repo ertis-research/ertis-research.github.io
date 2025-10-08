@@ -1,0 +1,38 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* --- INICIO: Estilos personalizados --- */}}
+{{/* 1. Carga nuestro CSS personalizado para que solo se use en esta sección */}}
+{{ $css := resources.Get "css/landing_visits.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{/* --- FIN: Estilos personalizados --- */}}
+
+{{ $visits := site.Data.visits }}
+<section class="py-8 px-4 mx-auto max-w-screen-xl">
+  {{ range $year, $visitList := $visits }}
+    <div class="pill bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-lg mb-6 text-center">
+      <h2 class="text-2xl font-bold mb-4 text-center dark:text-white">{{ $year }}</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {{ range $visit := $visitList }}
+          <div class="visit-div bg-white dark:code-bg p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold dark:text-gray-600">{{ $visit.name }} ({{ $visit.country }})</h3>
+            <p class="text-sm text-gray-600">{{ $visit.date }}</p>
+            {{ with $visit.text }}
+              <p class="text-sm mt-2">{{ . }}</p>
+            {{ end }}
+            {{ with $visit.images }}
+              <div class="image-block flex gap-2 mt-2">
+                {{ range $image := . }}
+                  {{ $img := resources.Get (printf "media/visits/%s" $image.src) }}
+                  {{ if $img }}
+                    <img src="{{ $img.RelPermalink }}" alt="{{ $image.alt }}" class="w-24 h-24 object-cover rounded">
+                  {{ end }}
+                {{ end }}
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+</section>

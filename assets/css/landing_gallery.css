@@ -1,0 +1,87 @@
+.gallery-carousel-container {
+  width: 100%;
+  position: relative;
+}
+
+.gallery-carousel {
+  display: flex;
+  width: 100%;
+}
+
+.gallery-slide {
+  align-content: center;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+.carousel-dot {
+  transition: all 0.3s ease;
+}
+
+/* Altura de imágenes basada en cantidad */
+.images-1 .gallery-image {
+  height: 16rem; /* 256px para 1 imagen */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.images-2 .gallery-image,
+.images-3 .gallery-image,
+.images-4 .gallery-image,
+.images-5 .gallery-image,
+.images-6 .gallery-image,
+.images-7 .gallery-image,
+.images-8 .gallery-image,
+.images-9 .gallery-image {
+  height: 10rem; /* 160px para 2 o más imágenes */
+}
+
+/* Modificar posición de botones para alejarlos más de los posts */
+#prev-btn {
+  left: 2rem;
+}
+
+#next-btn {
+  right: 2rem;
+}
+
+/* Ajustes adicionales para responsividad */
+@media (max-width: 768px) {
+  #prev-btn, #next-btn {
+    left: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .images-1 .gallery-image {
+    height: 12rem;
+  }
+  
+  .images-2 .gallery-image,
+  .images-3 .gallery-image {
+    height: 8rem;
+  }
+}
+
+/* Estilos para botones del carrusel */
+#prev-btn, #next-btn {
+  border-radius: 8px; /* Cuadrado redondeado */
+  background-color: rgba(249, 115, 22, 0.75); /* Naranja con 75% opacidad */
+  width: 1rem; /* Ancho para cuadrado */
+  height: 1rem; /* Alto para cuadrado */
+  display: flex; /* Centrar contenido */
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+#prev-btn:hover, #next-btn:hover {
+  background-color: rgba(249, 115, 22, 0.9);
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}

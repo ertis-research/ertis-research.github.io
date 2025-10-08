@@ -1,0 +1,63 @@
+{{ define "main" }}
+{{ $css := resources.Get "css/landing_members.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<section class="section">
+  <h1 class="text-4xl tracking-tight font-extrabold text-center mb-8 text-gray-900 dark:text-white">ERTIS Members</h1>
+  <p class="text-center mb-12 text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">Meet our team of researchers, professors, and students dedicated to advancing technology in distributed systems, IoT, and more.</p>
+  <div class="py-8 px-4 mx-auto max-w-screen-xl bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 min-h-screen">
+    <!-- Miembros actuales -->
+    <h2 class="text-3xl font-semibold text-center mb-8 text-gray-900 dark:text-white">Current Members</h2>
+    <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-6xl mx-auto">
+        {{ range .Site.Data.members.members }}
+        <div class="div-card bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg border-l-6 border-orange-500 mx-auto">
+            {{ if .images.src }}
+            {{ $img := resources.Get (printf "media/members/%s" .images.src) }}
+            {{ if $img }}
+                <img src="{{ $img.RelPermalink }}" alt="{{ .images.alt }}" class="member-image w-full object-cover rounded-full mb-4">
+            {{ end }}
+            {{ end }}
+            <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-white">{{ .name }}</h3>
+            <p class="text-orange-600 dark:text-orange-400 font-medium mb-2">{{ .role }}</p>
+            <p class="text-gray-700 dark:text-gray-300 mb-4">{{ .bio}}</p>
+            {{ if .email }}
+            <p class="text-sm text-gray-600 dark:text-gray-400 mb-2">Email: <a href="mailto:{{ .email }}" class="members-link text-blue-600 dark:text-blue-400">{{ .email }}</a></p>
+            {{ end }}
+            {{ if .web }}
+            <p class="text-sm text-gray-600 dark:text-gray-400">Web: <a href="{{ .web }}" target="_blank" class="members-link text-blue-600 dark:text-blue-400">{{ .web }}</a></p>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- Estudiantes -->
+    <h2 class="text-3xl font-semibold text-center mt-16 mb-8 text-gray-900 dark:text-white">Students</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        {{ range .Site.Data.members.students }}
+        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg border-l-4 border-blue-500 mx-auto max-w-xs">
+            {{ if .images.src }}
+            {{ $img := resources.Get (printf "media/members/%s" .images.src) }}
+            {{ if $img }}
+                <img src="{{ $img.RelPermalink }}" alt="{{ .images.alt }}" class="member-image w-full object-cover rounded-full mb-4">
+            {{ end }}
+            {{ end }}
+            <h3 class="text-lg font-semibold mb-2 text-gray-900 dark:text-white">{{ .name }}</h3>
+            {{ if .email }}
+            <p class="text-sm text-gray-600 dark:text-gray-400">Email: <a href="mailto:{{ .email }}" class="members-link text-blue-600 dark:text-blue-400">{{ .email }}</a></p>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- Antiguos miembros -->
+    <h2 class="text-3xl font-semibold text-center mt-16 mb-8 text-gray-900 dark:text-white">Former Members</h2>
+    <div class="max-w-4xl mx-auto bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
+        <ul class="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
+        {{ range .Site.Data.members.former_members }}
+            <li>{{ . }}</li>
+        {{ end }}
+        </ul>
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,54 @@
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* --- INICIO: Animación personalizada --- */}}
+{{/* Mantenemos la animación de flotación para la imagen */}}
+{{ $css := resources.Get "css/landing_publications.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl">
+    <h2 class="text-4xl tracking-tight font-extrabold text-center mb-8">Publications</h2>
+    <input type="text" id="search-input" placeholder="Buscar publicaciones..." class="w-full p-2 border rounded mb-4 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-gray-300 dark:border-gray-600">
+    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg ">
+        <div class="scroll-container-publications">
+        {{ $publications := site.Data.publications }}
+            {{ $years := slice }}
+            {{ range $year, $_ := $publications }}
+                {{ $years = $years | append $year }}
+            {{ end }}
+            {{ range sort $years "value" "desc" }}
+            <h4 class="text-lg font-medium mb-2">{{ . }}</h4>
+            <ul class="list-disc list-inside mb-4">
+                {{ range $pub := index $publications . }}
+                <li class="mb-2">
+                    <strong>{{ $pub.title }}</strong><br>
+                    <small>{{ $pub.authors }}</small>
+                    {{ with $pub.link }}
+                    <br><a href="{{ . }}" target="_blank" class="text-blue-500">Ver publicación</a>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+</section>
+<script>
+document.getElementById('search-input').addEventListener('input', function() {
+    const query = this.value.toLowerCase();
+    const items = document.querySelectorAll('.scroll-container-publications li');
+    items.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(query) ? '' : 'none';
+    });
+    // Ocultar años sin elementos visibles
+    const headers = document.querySelectorAll('.scroll-container-publications h4');
+    headers.forEach(header => {
+        const nextUl = header.nextElementSibling;
+        if (nextUl && nextUl.tagName === 'UL') {
+            const visibleLis = nextUl.querySelectorAll('li:not([style*="display: none"])');
+            header.style.display = visibleLis.length === 0 ? 'none' : '';
+        }
+    });
+});
+</script>

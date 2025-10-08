@@ -1,0 +1,96 @@
+:root {
+  /* Variantes para modo claro (light) - Convertidas a RGB */
+  --color-primary-50: 254 247 243;   /* #fef7f3 */
+  --color-primary-100: 253 227 211;  /* #fde3d3 */
+  --color-primary-200: 251 205 183;  /* #fbcdb7 */
+  --color-primary-300: 247 169 138;  /* #f7a98a */
+  --color-primary-400: 243 133 93;   /* #f3855d */
+  --color-primary-500: 232 122 77;   /* #E87A4D */
+  --color-primary-600: 209 106 66;   /* #d16a42 */
+  --color-primary-700: 181 86 55;    /* #b55637 */
+  --color-primary-800: 146 69 44;    /* #92452c */
+  --color-primary-900: 118 56 33;    /* #763821 */
+
+  /* Variables adicionales para gradientes y sombras */
+  --color-primary-orange: 241 167 48; /* #f1a730 */
+  --color-primary-black: 44 62 80;    /* #2c3e50 */
+  --color-primary-dark: 37, 38, 38;     /* #212f3d */
+
+  /* Otras variables (mantén como están, ya que no son colores primarios) */
+  --primary: #E87A4D;
+  --link: #E87A4D;
+  --link-hover: #d35400;
+  --body-bg: #F8F7F5;
+  --body-text: #2c3e50;
+  --header-bg: #FFFFFF;
+  --header-text: #2c3e50;
+  --header-text-active: #E87A4D;
+  --code-bg: #f5f5f5;
+}
+
+[data-theme=dark] {
+  /* Variantes para modo oscuro (dark) - Convertidas a RGB */
+  --color-primary-50: 42 26 20;     /* #2a1a14 */
+  --color-primary-100: 74 46 36;    /* #4a2e24 */
+  --color-primary-200: 106 66 52;   /* #6a4234 */
+  --color-primary-300: 138 86 68;   /* #8a5644 */
+  --color-primary-400: 170 106 84;  /* #aa6a54 */
+  --color-primary-500: 232 122 77;  /* #E87A4D (igual) */
+  --color-primary-600: 255 140 90;  /* #ff8c5a */
+  --color-primary-700: 255 179 128; /* #ffb380 */
+  --color-primary-800: 255 218 166; /* #ffdaa6 */
+  --color-primary-900: 255 241 230; /* #fff1e6 */
+
+  /* Otras variables */
+  --primary: #E87A4D;
+  --link: #E87A4D;
+  --link-hover: #FF8C5A;
+  --body-bg: #181A1B;
+  --body-text: #E1E1E1;
+  --header-bg: #202224;
+  --header-text: #E1E1E1;
+  --header-text-active: #E87A4D;
+  --code-bg: #282a2d;
+}
+
+/* Botones modernos con gradientes */
+    .btn-modern-primary {
+      background: linear-gradient(135deg, rgb(var(--color-primary-orange)) 0%, rgb(var(--color-primary-500)) 100%);
+      color: white;
+      padding: 16px 32px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 20px rgba(var(--color-primary-orange), 0.3);
+      border: none;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .btn-modern-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(var(--color-primary-orange), 0.4);
+      background: linear-gradient(135deg, rgb(var(--color-primary-400)) 0%, rgb(var(--color-primary-500)) 100%);
+    }
+    
+    .btn-modern-primary::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.5s;
+    }
+    
+    .btn-modern-primary:hover::before {
+      left: 100%;
+    }
+    

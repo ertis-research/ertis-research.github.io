@@ -1,0 +1,73 @@
+{{/* Hugo Blox: Features */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* --- INICIO: Estilos personalizados --- */}}
+{{/* 1. Carga nuestro CSS personalizado para que solo se use en esta sección */}}
+{{ $css := resources.Get "css/features.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{/* --- FIN: Estilos personalizados --- */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString }}
+
+<section class="dark:color-primary-dark">
+  {{/* Contenedor centrado */}}
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-6 lg:px-6">
+    <div class="max-w-screen-md mb-8 lg:mb-6 flex flex-col justify-center mx-auto text-center">
+      {{ with $title }}
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">{{.}}</h2>
+      {{ end }}
+      {{ with $text }}
+      <p class="paragraph text-gray-500 sm:text-xl dark:text-gray-400 text-center">{{.}}</p>
+      {{ end }}
+    </div>
+    <div class="block_icon text-center md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+      {{ range $block.content.items }}
+        <div class="mb-12 md:mb-0">
+          {{/* Icono */}}
+          {{ with .icon }}
+          <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-white text-primary-600 dark:text-primary-700 mx-auto text-center">
+            <i class="fas fa-{{ . }}"></i>
+          </div>
+          {{ end }}
+          <h3 class="mb-2 text-xl font-bold dark:text-white">{{ .name | $page.RenderString }}</h3>
+          <p class="color-primary-black dark:text-white">{{ .description | $page.RenderString }}</p>
+          <div class="flex justify-center gap-4 mt-6">
+            {{ with .image_one }}
+            {{ $img := resources.Get .path }}
+              {{ if $img }}
+                {{ if .link }}
+                  <a href="{{ .link }}" target="_blank" rel="noopener">
+                    <img src="{{ $img.RelPermalink }}" alt="{{ .name }}" class="platform-image h-16 w-auto object-contain rounded-lg mr-6">
+                  </a>
+                {{ else }}
+                  <img src="{{ $img.RelPermalink }}" alt="{{ .name }}" class="h-16 w-auto object-contain rounded-lg mr-6">
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            {{ with .image_two }}
+{{ $img := resources.Get .path }}
+  {{ if $img }}
+    {{ if .link }}
+      <a href="{{ .link }}" target="_blank" rel="noopener">
+        <svg class="platform-image h-16 w-auto object-contain rounded-lg ml-6 mt-2 fill-current text-gray-900 dark:text-white" viewBox="0 0 1500 500">
+          {{ $img.Content | safeHTML }}
+        </svg>
+      </a>
+    {{ else }}
+      <svg class="h-16 w-auto object-contain rounded-lg ml-6 mt-2 fill-current text-gray-900 dark:text-white" viewBox="0 0 1500 500">
+        {{ $img.Content | safeHTML }}
+      </svg>
+    {{ end }}
+  {{ end }}
+{{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,331 @@
+{
+  "European Projects": [
+     {
+      "name": "SMEPP: Secure Middleware for Embedded peer to peer Systems",
+      "date": "2006-2009",
+      "active": false,
+      "reference": "IST-027587/ 8.06.EU/47.7008",
+      "extra": "EUROPEAN FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "",
+      "text": "",
+      "images": [
+        { "src": "smepp.png", "alt": "SMEPP image" }
+      ]
+    },
+    {
+      "name": "WSAN4CIP: Wireless Sensor Actuator Networks for Critical Infrastructure Protection",
+      "date": "2009-2011",
+      "active": false,
+      "reference": "ST-027587/ 8.06.EU/47.7008",
+      "extra": "EUROPEAN FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "http://www.wsan4cip.eu/",
+      "text": "",
+      "images": [
+        { "src": "wsan4cip.png", "alt": "WSAN4CIP image" }
+      ]
+    },
+    {
+      "name": "FASTRACK: eco-Friendly And Sustainable slab TRACK for high-speed lines",
+      "date": "2013-2015",
+      "active": false,
+      "reference": "",
+      "extra": "FEDER – Innterconect",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "https://www.fastrack.es/",
+      "text": "",
+      "images": [
+        { "src": "fastrack.png", "alt": "FASTRACK image" }
+      ]
+    },
+    {
+      "name": "E-BALANCE: Balancing energy production and consumption in energy efficient smart neigbourhood",
+      "date": "2013-2016",
+      "active": false,
+      "reference": "8.06.25/47.7060",
+      "extra": "EUROPEAN FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "http://ebalance-project.eu/",
+      "text": "",
+      "images": [
+        { "src": "e-balance.png", "alt": "E-BALANCE image" }
+      ]
+    },
+    {
+      "name": "ebalance+: Energy balancing and resilience solutions to unlock the flexibility and increase market options for distribution grid",
+      "date": "2022-2023",
+      "active": false,
+      "reference": "864283",
+      "extra": "EUROPEAN FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "https://www.ebalanceplus.eu//",
+      "text": "The EU-funded project ebalance-plus will develop smart-grid solutions to increase the energy flexibility and the electric grid observability, providing new services for distribution grid operators, transmission system operators, aggregators, energy retailers, DER managers, building facility managers, prosumers, and consumers, empowering them with more functionalities to interact with the grid and manage the energy flows.",
+      "images": [
+        { "src": "ebalancemas.png", "alt": "ebalance+ image" },
+        { "src": "horizon_2020_Logo.png", "alt": "EUROPEAN FUNDINGS" }
+      ]
+    },
+    {
+      "name": "EVOLVE: Electric Vehicles Point Location Optimisation via Vehicular Communications",
+      "date": "2022-2026",
+      "active": true,
+      "reference": "101086218",
+      "extra": "MSCA Staff Exchange. Horizon Europe.",
+      "coordinator": "",
+      "website": "https://evolve-msca.eu//",
+      "text": "EVOLVE aims to exploit the scientific excellence and expertise of key academic and industrial players into a joint collaborative effort to design, develop and test various technologies that consider the holistic view of Electric Vehicles (EV) charging taking into account the view of technical and business stakeholders. EVOLVE will pursue innovation for advancing the technologies in EV charging ecosystem by orchestrating and managing the underlying networking and computational resources, design innovative algorithms using Artificial Intelligence (AI) and Machine Learning (ML), developing communication protocols, prediction and optimising load in smart grids, developing software systems and user interfaces (UIs). EVOLVE aims to transcend analytical models and simulation-based validation and aims to deliver five proof-of-concept (PoC) demonstrations. EVOLVE project will provide a platform to foster a close collaboration between academia and industry partners providing each with a unique experience to create new knowledge, share know-how and skills development.",
+      "images": [
+        { "src": "evolve.png", "alt": "EVOLVE image" },
+        { "src": "europe_funding.png", "alt": "EUROPEAN FUNDINGS" }
+      ]
+    }
+  ],
+  "National Projects": [
+    {
+      "name": "DESARROLLO de Software para Redes Inalámbricas de Sensores y Actores",
+      "date": "2008-2011",
+      "active": false,
+      "reference": "TIC-03085",
+      "extra": "REGIONAL FUNDINGS",
+      "coordinator": "Dr.Bartolomé Rubio",
+      "website": "",
+      "text": "",
+      "images": [
+        { "src": "ertis.png", "alt": "ERTIS image" }
+      ]
+    },
+    {
+      "name": "MisTIca: Monitorización de infraestructuras críticas basada en tecnologías inalámbricas",
+      "date": "2014-2018",
+      "active": false,
+      "reference": "P12-TIC-1572 MOTRIZ",
+      "extra": "REGIONAL FUNDINGS",
+      "coordinator": "Dr.Bartolomé Rubio",
+      "website": "http://ertis.uma.es/mistica/",
+      "text": "",
+      "images": [
+        { "src": "mistica.png", "alt": "MisTIca image" }
+      ]
+    },
+    {
+      "name": "KAMIC: Development of a Self-Installable Kit for Structural Monitoring of Critical Infrastructures",
+      "date": "2016-2019",
+      "active": false,
+      "reference": "RTC-2016-5164-B",
+      "extra": "NATIONAL FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "http://www.kamic-project.com/",
+      "text": "",
+      "images": [
+        { "src": "kamic.png", "alt": "KAMIC image" }
+      ]
+    },
+     {
+      "name": "rFOG: Improving latency and reliability of offloaded computation to the FOG for critical services",
+      "date": "2019-2021",
+      "active": false,
+      "reference": "RT2018-099777-B-100",
+      "extra": "Proyectos de I+D+i RETOS INVESTIGACIÓN 2018",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "",
+      "text": "Mission critical services based on cloud processing are very sensible to latency and reliability of the computation nodes and the communication network. These requirements are even more sensible when offloading computation to the Fog due to lack of unified fault-tolerance mechanisms. Some examples are mission critical IoT, connected vehicles, drone control, etc. This research project, rFOG, will research on novel techniques to increase the confidence in these scenarios in two complementary directions: the reliability and fault-tolerance of the device/Fog/Cloud computation hierarchy and the new protocols for ultra-reliable low latency communication.",
+      "images": []
+    },
+    {
+      "name": "Preventive Maintenance of Wind Turbines based on Deep Learning Techniques in the Fog",
+      "date": "2020-2021",
+      "active": false,
+      "reference": "CEI-ATECH",
+      "extra": "REGIONAL FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "",
+      "text": "In Andalusia there are a total of 147 wind farms that can supply more than 1.5M homes. This project aims to implement preventive maintenance techniques for their wind turbines in order to increase their availability and optimise their life cycle while reducing their operating costs. The reliability and real-time monitoring requirements require the combination of multidisciplinary areas such as artificial intelligence, fog computing, IoT and big data.",
+      "images": [
+        { "src": "system.jpg", "alt": "System Architecture" }
+      ]
+    },
+    {
+      "name": "Advanced Monitoring System based on Deep Learning Services in Fog",
+      "date": "2020-2022",
+      "active": false,
+      "reference": "UMA18FEDERJA-215",
+      "extra": "REGIONAL FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "",
+      "text": "The overall objective of the project is to provide advanced monitoring services based on the use of DL techniques for automatic pattern recognition on an open source platform running on a hybrid IoT/FC/CC infrastructure. In this way, it will be possible to run Distributed Deep Neural Networks (DDNN), partitioned over the distributed computing hierarchy consisting of the Cloud, the Fog and the end devices. On the one hand, by performing part of the data analysis on the devices themselves and on the FC servers, latency will be reduced considerably; on the other hand, the benefits of powerful DC facilities will be preserved, as part of the services will run on the Cloud servers.",
+      "images": []
+    },
+    {
+      "name": "IntegraDos: Provisión de Servicios en Tiempo Real para el Internet de las Cosas mediante la Integración de Sensores en la Nube",
+      "date": "2021-2023",
+      "active": false,
+      "reference": "PY20_00788",
+      "extra": "REGIONAL FUNDINGS",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "",
+      "text": "The main objective of the IntegraDos project is the development of a Framework that facilitates the integration of WSANs in the Cloud, supporting, through the proper fit between CC and FC, services with rigorous quality requirements (QoS – Quality of Service) related to the efficient use of resources and the fulfilment of execution deadlines. IntegraDos will provide techniques and methods for a platform capable of supporting Real-Time at two levels: Data Acquisition (from WSANs) and Service Provisioning (to Cloud users). The Framework will support a new Sensor and Actor Infrastructure as a Service (SAIaaS) model, capable of providing Real-Time services from virtualised sensors and actors.",
+      "images": []
+    },
+    {
+      "name": "5G+TACTILE_2: Digital vertical twins for B5G/6G networks",
+      "date": "2022-2024",
+      "active": false,
+      "reference": "",
+      "extra": "UNICO-5G I+D call",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "https://5gplustactile.uma.es/",
+      "text": "The 5G+TACTILE_2 project addresses the creation of digital twins for vertical solutions over advanced 5G and towards 6G. The project includes the design of an architecture to support the development of hybrid and distributed digital twins; a software infrastructure with low latency multiprotocol support for twin deployment; and a framework for the design of hybrid digital twins and distributed AI techniques. As a result of the project, two digital twins will be deployed for the two use cases of the coordinated project: autonomous driving and immersive telepresence. The participation of at least three companies performing R&D and software development is envisaged.",
+      "images": [
+        { "src": "5gredondo.png", "alt": "5G+TACTILE_2" },
+        { "src": "unico_I_+_D.png", "alt": "UNICO-5G I+D" }
+      ]
+    },
+    {
+      "name": "DiTaS: A framework for agnostic compositional and cognitive digital twin services",
+      "date": "2023-2026",
+      "active": true,
+      "reference": "PID2022-141705OB-C21",
+      "extra": "Proyectos de Generación de Conocimiento 2022",
+      "coordinator": "Dr. Manuel Díaz and Dr. Cristian Martín",
+      "website": "",
+      "text": "The requirements for continuous analysis and prediction of the real-time behavior of assets and their possible future state have led to the emergence of the well-known digital twins. Digital twins play a key role in the digital transformation for the industry 4.0 and beyond. However, the efforts made so far have pursued vertical and tailored solutions, but not interoperable and plug & play services. The DiTaS project shifts towards interoperable, composable, and cognitive digital twins as services. DiTaS will provide an open digital twin framework for the definition of interoperable, agnostic, and cognitive digital twin services in the Industry 4.0.",
+      "images": [
+        { "src": "ditas_scaled.jpg", "alt": "DiTaS" }
+      ]
+    },
+    {
+      "name": "ZeroVision: Enabling Zero impact wastewater treatment through Computer Vision and Federated AI",
+      "date": "2023-2025",
+      "active": true,
+      "reference": "CPP2021-009032",
+      "extra": "Proyectos de Colaboración Público-Privada",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "",
+      "text": "ZeroVision will design and deliver a next-generation AI-based ecosystem of technologies, integrated into a single process control platform to enable intelligent, highly efficient, sustainable, and resilient operations in wastewater management through Computer Vision and Federated AI.",
+      "images": [
+        { "src": "zerovision.png", "alt": "ZeroVision image" },
+        { "src": "ministerio.jpg", "alt": "MINISTRY FUNDINGS" },
+        { "src": "union_europea.png", "alt": "EUROPEAN FUNDINGS" }
+      ]
+    },
+    {
+      "name": "GEDIER: Application of Digital Twins to more sustainable irrigated farms",
+      "date": "2023-2025",
+      "active": true,
+      "reference": "TED2021-130167B-C33",
+      "extra":"Proyectos de Transición Ecológica y Transición Digital",
+      "coordinator": "Dr. Manuel Díaz and Dr. Bartolomé Rubio",
+      "website": "https://www.uco.es/investigacion/proyectos/gedier/index.html",
+      "text": "Every object in a farm (crop, soil, equipment) can be virtualized (digital twin) and remotely controlled by IoT systems. A Digital Twin is the digital equivalent of a real-life object and reproduces its behavior throughout its life cycle in a virtual space. Using a Farm Digital Twin for irrigated farms (IFDT), it is possible to characterize and improve the processes necessary for production to achieve higher productivity and sustainability. The aim of GEDIER is to develop an agricultural production model that takes advantage of disruptive digital technologies and moves towards an agriculture with greater protection of natural resources (water, soil, fertilizers, and inputs in general) and increases people’s quality of life using digital twins.",
+      "images": [
+        { "src": "ministerio.jpg", "alt": "MINISTRY FUNDINGS" },
+        { "src": "union_europea.png", "alt": "EUROPEAN FUNDINGS" }
+      ]
+    },
+    {
+      "name": "TRIATHLON: TRIhAlomeTHanes controL thrOugh AI-based techNologies",
+      "date": "2023-2026",
+      "active": true,
+      "reference": "CPP2022-009695",
+      "extra": "Plan Estatal de Investigación Científica, Técnica y de Innovación 2021-2023, en el Marco del Plan de Recuperación, Transformación y Resiliencia",
+      "coordinator": "Dr. Manuel Díaz and Dr. Cristian Martín",
+      "website": "",
+      "text": "",
+      "images": [
+        { "src": "ministerio.jpg", "alt": "MINISTRY FUNDINGS" },
+        { "src": "union_europea.png", "alt": "EUROPEAN FUNDINGS" }
+      ]
+    },
+    {
+      "name": "DALISE: Design/development of a Data Lake and set of services for experimentation and innovation in energy flexibility environments",
+      "date": "2024-2027",
+      "active": true,
+      "reference": "CPP2022-009695",
+      "extra": "Plan Estatal de Investigación Científica, Técnica y de Innovación 2021-2023",
+      "coordinator": "Dr. José Francisco Aldana Montes",
+      "website": "",
+      "text": "",
+      "images": [
+        { "src": "ministerio.jpg", "alt": "MINISTRY FUNDINGS" }
+      ]
+    },
+    {
+      "name": "OPTIMA-DONES: Cyber-physical system for proactive supervision and maintenance of critical systems of IFMIF-DONES",
+      "date": "2025-2027",
+      "active": true,
+      "reference": "Programa TransMisiones (CDTI / AEI)",
+      "extra": "Programa TransMisiones funded by the Centro para el Desarrollo Tecnológico y de Innovación (CDTI) y la Agencia Estatal de Investigación (AEI)",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "https://optima-dones.eu/",
+      "text": "The OPTIMA-DONES project aims to develop a cyber-physical system for proactive monitoring and maintenance of IFMIF-DONES’s critical systems, following the Maintenance 5.0 paradigm. Its goal is to enhance safety, availability, and lifespan of key components in this major European fusion facility. Maintaining fusion systems like IFMIF-DONES is especially challenging due to the lack of prior experience with many prototype systems. Gaining this expertise is essential to make fusion energy viable and reliable.",
+      "images": [
+        { "src": "ministerio.jpg", "alt": "MINISTRY FUNDINGS" }
+      ]
+    },
+    {
+      "name": "GEDERA: Intelligent management of flexible power demand in coupled hybrid networks",
+      "date": "2022-2025",
+      "active": true,
+      "reference": "MIG-20221022",
+      "extra":"Ministerio de Ciencia e Innovación. Programa Misiones 2022. CDTI y Plan de Recuperación, Transformación y Resiliencia. Fondos NextGenerationEU",
+      "coordinator": "Dr. Manuel Díaz",
+      "website": "",
+      "text": "The main objective of the GEDERA project is to develop and validate the usefulness of a multi-agent tool (users and systems) to streamline the integration of renewables and flexible resources in the energy system, from the point of view of digitization, monitoring, control and participation in new markets in relation to the figure of the aggregator and local energy and flexibility markets.",
+      "images": [
+        { "src": "ministerio.jpg", "alt": "MINISTRY FUNDINGS" },
+        { "src": "union_europea.png", "alt": "EUROPEAN FUNDINGS" }
+      ]
+    },
+    {
+      "name": "Development of an intelligent early warning system to control abstractions and groundwater contamination in urban water supply during periods of drought.",
+      "date": "2025",
+      "active": true,
+      "reference": "",
+      "extra":"336.431,8€. Regionals",
+      "coordinator": "DR Antonio Barberá",
+      "website": "",
+      "text": "During droughts, both the quantity and quality of available water decline, often requiring reliance on underground aquifers. To prevent overexploitation and contamination, advanced technologies are needed. This project aims to develop an Early Warning System (iSAT) using low-cost sensors and artificial intelligence algorithms to continuously monitor water quality and availability. The system will send alerts to managers in case of health risks, enhancing groundwater management. The goal is to experimentally validate the prototype under real conditions and reach a TRL7 technology readiness level.",
+      "images": [
+        { "src": "junta.png", "alt": "JUNTA DE ANDALUCÍA" }
+      ]
+    },
+    {
+      "name": "DIAGRO: Digital twins based on predictive systems for the management of irrigation water in irrigation communities",
+      "date": "2025",
+      "active": true,
+      "reference": "",
+      "extra":"183002,1€. Regionals",
+      "coordinator": "Dr Manuel Díaz",
+      "website": "",
+      "text": "Faced with increasing water scarcity in Spain, particularly in Andalusia, the agricultural sector has shown strong adaptability through efficient water use. The DIGAGRO project proposes developing advanced digital twins powered by artificial intelligence to optimize irrigation management during drought conditions. Led by the University of Málaga and the University of Córdoba, this initiative will enable water consumption forecasting, anomaly detection, long-term demand analysis, and scenario simulation. Its goal is to support decision-making in irrigation communities through innovative and predictive tools.",
+      "images": [
+        { "src": "junta.png", "alt": "JUNTA DE ANDALUCÍA" }
+      ]
+    }
+  ],
+  "Contracts with Companies": [
+    {
+      "name": "SIEITI: Industrial Pipeline Interior Condition Information System – Collaboration with INNTELIA Soluciones Tecnológicas",
+      "date": "2024",
+      "active": true,
+      "reference": "8.06/6.18.6926 – GA 0806004706. Corporación Tecnológica de Andalucía (CTA)",
+      "extra":"80.000€",
+      "coordinator": "",
+      "website": "",
+      "text": "",
+      "images": []
+    },
+    {
+      "name": "Cepsa. Research and innovation work related to the Hydrocracker (HCK) unit located at the Cepsa Energy Park in La Rábida.",
+      "date": "2024",
+      "active": true,
+      "reference": "8.06/6.18.6375",
+      "extra":"81.000€",
+      "coordinator": "",
+      "website": "",
+      "text": "",
+      "images": []
+    }
+  ]
+}

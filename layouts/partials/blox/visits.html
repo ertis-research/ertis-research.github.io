@@ -1,0 +1,43 @@
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+
+{{/* --- INICIO: Estilos personalizados --- */}}
+{{/* 1. Carga nuestro CSS personalizado para que solo se use en esta sección */}}
+{{ $css := resources.Get "css/visits.css" }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{/* --- FIN: Estilos personalizados --- */}}
+
+<section class="py-8 px-4 mx-auto max-w-screen-xl">
+  {{ with $block.content.title }}
+    <h2 class="text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center mb-4 dark:text-white">{{ . }}</h2>
+  {{ end }}
+  {{ with $block.content.text }}
+    <p class="text-center mb-8 text-primary-black sm:text-xl dark:text-white">{{ . | $page.RenderString }}</p>
+  {{ end }}
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+  <div class="gallery mx-auto mt-6">
+    {{ range $key, $value := $block.content.images }}
+      {{ $img := resources.Get (printf "../assets/media/visits/%s" $value) }}
+      {{ if $img }}
+        <a href="{{ $img.RelPermalink }}" class="gallery-item glightbox" data-gallery="visits-gallery">
+          <img src="{{ $img.RelPermalink }}" alt="{{ $key }}" class="img-fluid rounded mb-2" />
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const lightbox = GLightbox({
+        selector: '.glightbox',
+        touchNavigation: true,
+        loop: true,
+        scrollLock: false
+      });
+    });
+  </script>
+</section>

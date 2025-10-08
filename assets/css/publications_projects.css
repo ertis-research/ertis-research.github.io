@@ -1,0 +1,58 @@
+.scroll-container {
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+}
+
+.scroll-container li {
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background: #f9fafb;
+  border-left: 4px solid #f97316; /* Barra naranja */
+  border-radius: 4px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.scroll-container li:hover {
+  background: #fed7aa; /* Fondo naranja claro al hover */
+  transform: translateX(4px);
+}
+
+.scroll-container li strong {
+  color: #1f2937;
+}
+
+.scroll-container li small {
+  color: #6b7280;
+}
+
+.scroll-container a {
+  color: #ea580c; /* Enlaces en naranja oscuro */
+  text-decoration: none;
+}
+
+.scroll-container a:hover {
+  text-decoration: underline;
+}
+
+/* Modo oscuro */
+.dark .scroll-container li {
+  background: #374151;
+  border-left-color: #fb923c; /* Barra naranja clara en oscuro */
+}
+
+.dark .scroll-container li:hover {
+  background: #4b5563;
+}
+
+.dark .scroll-container li strong {
+  color: #f9fafb;
+}
+
+.dark .scroll-container li small {
+  color: #9ca3af;
+}
+
+.dark .scroll-container a {
+  color: #fdba74; /* Enlaces naranja en oscuro */
+}
